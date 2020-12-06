@@ -1,4 +1,5 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Graph](README.md)
+* [Hierholzer's algorithm for directed graph](hierholzers-algorithm-for-directed-graph.md)
 

@@ -1,8 +1,4 @@
----
-description: fdgfd
----
-
-# Initial page
+# Graph
 
 fdgsdfdgfd
 
