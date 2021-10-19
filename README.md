@@ -47,10 +47,12 @@ $$
 We can deduce the following identity:
 
 $$
-\epsilon_{ijk}\mathbf{e}_k=(\mathbf{e}_i\times \mathbf{e}_j\cdot \mathbf{e}_k)\mathbf{e}_k=\mathbf{e}_i\times \mathbf{e}_j,
+\epsilon_{ijk}\mathbf{e}_k=(\mathbf{e}_i\times \mathbf{e}_j\cdot \mathbf{e}_k)\mathbf{e}_k=\mathbf{e}_i\times \mathbf{e}_j.
 $$
 
-noting that $$(\mathbf{v}\cdot \mathbf{e}_k)\mathbf{e}_k=(v_i\mathbf{e}_i\cdot \mathbf{e}_k)\mathbf{e}_k=v_i\delta_{ik}\mathbf{e}_k=v_k\mathbf{e}_k=\mathbf{v}$$.
+{% hint style="info" %}
+Note that $$(\mathbf{v}\cdot \mathbf{e}_k)\mathbf{e}_k=(v_i\mathbf{e}_i\cdot \mathbf{e}_k)\mathbf{e}_k=v_i\delta_{ik}\mathbf{e}_k=v_k\mathbf{e}_k=\mathbf{v}$$.
+{% endhint %}
 
 #### Scalar product (dot product)
 
