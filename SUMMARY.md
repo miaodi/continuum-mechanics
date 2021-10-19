@@ -1,4 +1,4 @@
 # Table of contents
 
-* [Initial page](README.md)
-
+* [Tensor Algebra](README.md)
+* [Page 2](page-2.md)

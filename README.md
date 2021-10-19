@@ -1,31 +1,13 @@
 ---
-description: fdgfd
+description: Here the concept of tensor is introduced.
 ---
 
-# Initial page
+# Tensor Algebra
 
-fdgsdfdgfd
+## Tensor
 
-## Getting Super Powers
+### Zeroth and first order tensors
 
-Becoming a super hero is a fairly straight forward process:
+A tensor of order zero is a scalar $$\alpha$$.
 
-```markup
-$ give me super-powers
-```
-
-{% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
-{% endhint %}
-
-Once you're strong enough, save the world:
-
-{% code title="hello.sh" %}
-```bash
-# Ain't no code for that yet, sorry
-echo 'You got to trust me on this, I saved the world'
-```
-{% endcode %}
-
-
-
+Atensor of order one is a vector $$\mathbf{v}$$
