@@ -10,38 +10,30 @@ description: Here the concept of tensor is introduced.
 
 A tensor of order zero is a scalar $$\alpha\in\mathbb{R}$$, where $$\mathbb{R}$$ is the real space.
 
-A tensor of order one is a vector $$\mathbf{v}\in\mathcal{V}$$, where $$\mathcal{V}$$ is a vector space (could be $$\mathbb{R}^2$$or $$\mathbb{R}^3$$).&#x20;
+A tensor of order one is a vector $$\mathbf{v}\in\mathcal{V}$$, where $$\mathcal{V}$$ is a vector space (could be $$\mathbb{R}^2$$or $$\mathbb{R}^3$$).
 
 #### Index notation
 
-A first order tensor in any basis $$\left\{\mathbf{e}_i \right\}$$ (not necessarily orthonormal) can be written as:&#x20;
+A first order tensor in any basis $$\left\{\mathbf{e}_i \right\}$$ (not necessarily orthonormal) can be written as:
 
 $$
 \mathbf{v}=v_i\mathbf{e}_i,\quad \text{sum over}\left\{1,2,3\right\},
 $$
 
-which adapts the _Einstein_ summation convention.&#x20;
+which adapts the _Einstein_ summation convention.
 
 #### Kronecker delta and permutation symbols
 
 To any right-handed orthonormal basis $$\left\{\mathbf{e}_i \right\}$$, we associate a **Kronecker delta** defined by:
 
 $$
-\delta_{ij}=\mathbf{e}_i\cdot\mathbf{e}_j=\begin{cases}
-    1 \quad\text{$i=j$},
-    \\
-    0 \quad \text{$i\neq j$},
-\end{cases}
+\delta_{ij}=\mathbf{e}_i\cdot\mathbf{e}_j=\begin{cases} 1 \quad\text{$i=j$}, \\ 0 \quad \text{$i\neq j$}, \end{cases}
 $$
 
 and a **permutation symbol** $$\epsilon_{ijk}$$​ defined by:
 
 $$
-\epsilon_{ijk}=\mathbf{e}_i\times \mathbf{e}_j\cdot \mathbf{e}_k=\begin{cases}
-    1 \quad \text{if $ijk=123,231,312$}, \\
-    -1 \quad  \text{if $ijk=321,213,132$},\\
-    0 \quad  \text{else}.
-\end{cases}
+\epsilon_{ijk}=\mathbf{e}_i\times \mathbf{e}_j\cdot \mathbf{e}_k=\begin{cases} 1 \quad \text{if $ijk=123,231,312$}, \\ -1 \quad \text{if $ijk=321,213,132$},\\ 0 \quad \text{else}. \end{cases}
 $$
 
 We can deduce the following identity:
@@ -51,7 +43,7 @@ $$
 $$
 
 {% hint style="info" %}
-Note that $$(\mathbf{v}\cdot \mathbf{e}_k)\mathbf{e}_k=(v_i\mathbf{e}_i\cdot \mathbf{e}_k)\mathbf{e}_k=v_i\delta_{ik}\mathbf{e}_k=v_k\mathbf{e}_k=\mathbf{v}$$.
+Note that for any orthonormal basis $$\left\{\mathbf{e}_i\right\}$$,  $$(\mathbf{v}\cdot \mathbf{e}_k)\mathbf{e}_k=(v_i\mathbf{e}_i\cdot \mathbf{e}_k)\mathbf{e}_k=v_i\delta_{ik}\mathbf{e}_k=v_k\mathbf{e}_k=\mathbf{v},\quad \forall \mathbf{v}\in\mathcal{V}$$.
 {% endhint %}
 
 #### Scalar product (dot product)
