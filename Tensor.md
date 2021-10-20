@@ -66,10 +66,28 @@ $$
 
 ### Second order tensors
 
-A second order tensor $$\mathbf{T}$$​ is a linear mapping $$\mathbf{T}\colon \mathcal{V}\rarr\mathcal{V}$$, which means:
+A second order tensor $$\mathbf{T}\in\mathcal{V}^2$$​ is a linear mapping $$\mathbf{T}\colon \mathcal{V}\rarr\mathcal{V}$$, which means:
 
 $$
 \begin{align*}\mathbf{T}(\mathbf{u}+\mathbf{v})&=\mathbf{Tu}+\mathbf{Tv}\quad \forall \mathbf{u}\mathbf{v}\in \mathcal{V}\\\mathbf{T}(\alpha\mathbf{v})&=\alpha\mathbf{Tv}\quad \forall\mathbf{v}\in \mathcal{V}\end{align*}
 $$
 
-​
+​We define two special tensors:
+
+$$
+\begin{align*}
+    \mathbf{O}(\mathbf{v})&=\mathbf{0},\quad \forall\mathbf{v}\in\mathcal{V},\\
+    \mathbf{I}(\mathbf{v})&=\mathbf{v},\quad \forall\mathbf{v}\in\mathcal{V},
+\end{align*}
+$$
+
+where $$\mathbf{O}$$ is the zero tensor and $$\mathbf{I}$$ is the identity tensor.
+
+#### The dyadic product (the tensor product)
+
+The dyadic product of two vectors is a second order tensor $$\mathbf{a}\otimes\mathbf{b}$$ defined by:
+
+$$
+(\mathbf{a}\otimes\mathbf{b})\mathbf{c}=(\mathbf{b}\cdot\mathbf{c})\mathbf{a},\
+$$
+
