@@ -43,7 +43,7 @@ $$
 $$
 
 {% hint style="info" %}
-Note that for any orthonormal basis $$\left\{\mathbf{e}_i\right\}$$,  $$(\mathbf{v}\cdot \mathbf{e}_k)\mathbf{e}_k=(v_i\mathbf{e}_i\cdot \mathbf{e}_k)\mathbf{e}_k=v_i\delta_{ik}\mathbf{e}_k=v_k\mathbf{e}_k=\mathbf{v},\quad \forall \mathbf{v}\in\mathcal{V}$$.
+Note that for any orthonormal basis $$\left\{\mathbf{e}_i\right\}$$, $$(\mathbf{v}\cdot \mathbf{e}_k)\mathbf{e}_k=(v_i\mathbf{e}_i\cdot \mathbf{e}_k)\mathbf{e}_k=v_i\delta_{ik}\mathbf{e}_k=v_k\mathbf{e}_k=\mathbf{v},\quad \forall \mathbf{v}\in\mathcal{V}$$.
 {% endhint %}
 
 #### Scalar product (dot product)
@@ -75,10 +75,7 @@ $$
 We define two special tensors:
 
 $$
-\begin{align*}
-    \mathbf{O}(\mathbf{v})&=\mathbf{0},\quad \forall\mathbf{v}\in\mathcal{V},\\
-    \mathbf{I}(\mathbf{v})&=\mathbf{v},\quad \forall\mathbf{v}\in\mathcal{V},
-\end{align*}
+\begin{align*} \mathbf{O}(\mathbf{v})&=\mathbf{0},\quad \forall\mathbf{v}\in\mathcal{V},\\ \mathbf{I}(\mathbf{v})&=\mathbf{v},\quad \forall\mathbf{v}\in\mathcal{V}, \end{align*}
 $$
 
 where $$\mathbf{O}$$ is the zero tensor and $$\mathbf{I}$$ is the identity tensor.
@@ -88,8 +85,34 @@ where $$\mathbf{O}$$ is the zero tensor and $$\mathbf{I}$$ is the identity tenso
 The dyadic product of two vectors is a second order tensor $$\mathbf{a}\otimes\mathbf{b}$$ defined by:
 
 $$
-(\mathbf{a}\otimes\mathbf{b})\mathbf{v}=(\mathbf{b}\cdot\mathbf{v})\mathbf{a},\forall \mathbf{v}\in\mathcal{V},
+(\mathbf{a}\otimes\mathbf{b})\mathbf{v}=(\mathbf{b}\cdot\mathbf{v})\mathbf{a},\quad\forall \mathbf{v}\in\mathcal{V},
 $$
 
+#### The matrix representation of a tensor by orthonormal basis
 
+For a second order tensor $$\mathbf{S}$$ and a set of orthonormal basis $$\left\{\mathbf{e}_i \right\}$$, we can define a matrix $$\left[\mathbf{S}\right]$$ by:
 
+$$
+S_{ij}=\left[\mathbf{S}\right]_{ij}=\mathbf{e}_i\cdot\mathbf{Se}_j.
+$$
+
+We can define a new tensor $$\tilde{\mathbf{S}}$$ by:
+
+$$
+\tilde{\mathbf{S}}=S_{ij}\mathbf{e}_i\otimes\mathbf{e}_j.
+$$
+
+Indeed, $$\tilde{\mathbf{S}}$$ is identical to $$\mathbf{S}$$. To see this, we apply $$\tilde{\mathbf{S}}$$ to an arbitrary vector $$\mathbf{v}\in\mathcal{V}$$,
+
+$$
+\begin{align*}
+    \tilde{\mathbf{S}}\mathbf{v}    &= S_{ij}\mathbf{e}_i\otimes\mathbf{e}_jv_k\mathbf{e}_k\\
+                                    &= S_{ij}v_k\delta_{jk}\mathbf{e}_i\\
+                                    &= S_{ij}v_j\mathbf{e}_i\\
+                                    &= \mathbf{e}_i\cdot\mathbf{S}\mathbf{e}_jv_j\mathbf{e}_i\\
+                                    &= (\mathbf{e}_i\cdot\mathbf{S}\mathbf{v})\mathbf{e}_i\\
+                                    &= \mathbf{S}\mathbf{v}.
+\end{align*}
+$$
+
+This implies that $$\mathbf{S}=S_{ij}\mathbf{e}_i\otimes\mathbf{e}_j.$$
