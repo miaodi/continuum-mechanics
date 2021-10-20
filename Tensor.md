@@ -77,7 +77,7 @@ $$
 A second order tensor $$\mathbf{T}$$​ is a linear mapping $$\mathbf{T}\colon \mathcal{V}\rarr\mathcal{V}$$, which means:
 
 $$
-\begin{align*}\mathbf{T}(\mathbf{u}+\mathbf{v})&=\mathbf{Tu}+\mathbf{Tv}\quad \forall \mathbf{u}\mathbf{v}\in \mathcal{V}\\\mathbf{T}(\alpha\mathbf{v})&=\alpha\mathbf{Tv}\quad \mathbf{v}\in \mathcal{V}\end{align*}
+\begin{align*}\mathbf{T}(\mathbf{u}+\mathbf{v})&=\mathbf{Tu}+\mathbf{Tv}\quad \forall \mathbf{u}\mathbf{v}\in \mathcal{V}\\\mathbf{T}(\alpha\mathbf{v})&=\alpha\mathbf{Tv}\quad \forall\mathbf{v}\in \mathcal{V}\end{align*}
 $$
 
 ​
