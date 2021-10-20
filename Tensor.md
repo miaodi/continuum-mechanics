@@ -72,7 +72,7 @@ $$
 \begin{align*}\mathbf{T}(\mathbf{u}+\mathbf{v})&=\mathbf{Tu}+\mathbf{Tv}\quad \forall \mathbf{u}\mathbf{v}\in \mathcal{V}\\\mathbf{T}(\alpha\mathbf{v})&=\alpha\mathbf{Tv}\quad \forall\mathbf{v}\in \mathcal{V}\end{align*}
 $$
 
-​We define two special tensors:
+We define two special tensors:
 
 $$
 \begin{align*}
@@ -88,6 +88,8 @@ where $$\mathbf{O}$$ is the zero tensor and $$\mathbf{I}$$ is the identity tenso
 The dyadic product of two vectors is a second order tensor $$\mathbf{a}\otimes\mathbf{b}$$ defined by:
 
 $$
-(\mathbf{a}\otimes\mathbf{b})\mathbf{c}=(\mathbf{b}\cdot\mathbf{c})\mathbf{a},\
+(\mathbf{a}\otimes\mathbf{b})\mathbf{v}=(\mathbf{b}\cdot\mathbf{v})\mathbf{a},\forall \mathbf{v}\in\mathcal{V},
 $$
+
+
 
